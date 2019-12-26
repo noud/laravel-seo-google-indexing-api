@@ -1,4 +1,4 @@
-# Laraval Google Indexing API
+# Laravel Google Indexing API
 
 Inform Google Search [Indexing API](https://developers.google.com/search/apis/indexing-api/v3/quickstart) about your [Job Posting](https://developers.google.com/search/docs/data-types/job-posting) URLs.
 

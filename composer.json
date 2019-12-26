@@ -1,0 +1,23 @@
+{
+    "name": "noud/laravel-google-indexing-api",
+    "description": "Laravel Google Search Indexing API",
+    "type": "library",
+    "require": {
+        "php": ">=7.2.0",
+        "pulkitjalan/google-apiclient": "^4.0@dev"
+    },
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Noud de Brouwer",
+            "email": "noud4@home.nl"
+        }
+    ],
+    "minimum-stability": "dev",
+    "prefer-stable": true,
+    "autoload": {
+        "psr-4": {
+            "GoogleIndexing\\": "src/"
+        }
+    }
+}

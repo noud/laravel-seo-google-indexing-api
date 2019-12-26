@@ -14,7 +14,24 @@ Inform Google Search [Indexing API](https://developers.google.com/search/apis/in
 composer require noud/laravel-google-indexing-api
 ```
 
-## Use
+2) Now follow the provider steps at [Google Api Client Wrapper](https://github.com/pulkitjalan/google-apiclient#laravel) and publish the config file.
+
+## Configuration
+
+1) Add these settings to your ```.env```.
+```
+GOOGLE_SERVICE_ENABLED=true
+GOOGLE_SERVICE_ACCOUNT_JSON_LOCATION="/var/www/seo/config/google/google-service-account.json"
+```
+
+2) Add the indexing scope to ```config/google.php```, like so:
+```
+    'scopes' => [
+        'https://www.googleapis.com/auth/indexing'
+    ],
+```
+
+## Usage
 
 Here is a usage example:
 ```

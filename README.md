@@ -36,17 +36,17 @@ class GoogleIndexingController extends Controller
 
     public function updateURL(JobPosting $jobPosting)
     {
-        $this->indexingService->publish($jobPosting->url, "URL_UPDATED");
+        $this->indexingService->update($jobPosting->url);
     }
 
     public function removeURL(JobPosting $jobPosting)
     {
-        $this->indexingService->publish($jobPosting->url, "URL_DELETED");
+        $this->indexingService->remove($jobPosting->url);
     }
 
     public function statusURL(JobPosting $jobPosting)
     {
-        $this->indexingService->status($jobPosting->url;
+        $this->indexingService->status($jobPosting->url);
     }
 }
 ```

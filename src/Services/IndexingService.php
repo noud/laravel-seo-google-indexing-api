@@ -33,7 +33,7 @@ class IndexingService
         return $this->publish($url, "URL_DELETED");
     }
 
-    public function publish(string $url, string $action)
+    private function publish(string $url, string $action)
     {
         $urlNotification = new Google_Service_Indexing_UrlNotification();
         $urlNotification->setUrl($url);

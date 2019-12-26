@@ -23,6 +23,16 @@ class IndexingService
         return $responce;
     }
 
+    public function update(string $url)
+    {
+        return $this->publish($url, "URL_UPDATED");
+    }
+
+    public function remove(string $url)
+    {
+        return $this->publish($url, "URL_DELETED");
+    }
+
     public function publish(string $url, string $action)
     {
         $urlNotification = new Google_Service_Indexing_UrlNotification();

@@ -9,14 +9,14 @@ Inform Google Search [Indexing API](https://developers.google.com/search/apis/in
 
 ## Installation
 
-1) Install the package by running this command in your terminal/cmd:
+Install the package by running this command in your terminal/cmd:
 ```
 composer require noud/laravel-google-indexing-api
 ```
 
 ## Configuration
 
-1) Add these settings to your ```.env```.
+Add these settings to your ```.env```.
 ```
 GOOGLE_SERVICE_ENABLED=true
 GOOGLE_SERVICE_ACCOUNT_JSON_LOCATION="/var/www/seo/config/google/google-service-account.json"

@@ -19,5 +19,12 @@
         "psr-4": {
             "GoogleIndexing\\": "src/"
         }
+    },
+    "extra": {
+        "laravel": {
+            "providers": [
+                "GoogleIndexing\\Providers\\IndexingServiceProvider"
+            ]
+        }
     }
 }

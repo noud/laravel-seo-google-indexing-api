@@ -1,4 +1,4 @@
-# Laravel Google Indexing API
+# Laravel SEO Google Indexing API
 
 Inform Google Search [Indexing API](https://developers.google.com/search/apis/indexing-api/v3/quickstart) about your [Job Posting](https://developers.google.com/search/docs/data-types/job-posting) URLs.
 
@@ -11,7 +11,7 @@ Inform Google Search [Indexing API](https://developers.google.com/search/apis/in
 
 Install the package by running this command in your terminal/cmd:
 ```
-composer require noud/laravel-google-indexing-api
+composer require noud/laravel-seo-google-indexing-api
 ```
 
 ## Configuration

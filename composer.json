@@ -1,11 +1,11 @@
 {
-    "name": "noud/laravel-google-indexing-api",
-    "description": "Laravel Google Search Indexing API",
-    "type": "library",
+    "name": "noud/laravel-seo-google-indexing-api",
     "require": {
         "php": ">=7.2.0",
         "pulkitjalan/google-apiclient": "^4.0@dev"
     },
+    "description": "Laravel SEO Google Search Indexing API",
+    "type": "library",
     "license": "MIT",
     "authors": [
         {

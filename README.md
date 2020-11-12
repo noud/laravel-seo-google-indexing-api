@@ -22,6 +22,9 @@ GOOGLE_SERVICE_ENABLED=true
 GOOGLE_SERVICE_ACCOUNT_JSON_LOCATION="/var/www/seo/config/google/google-service-account.json"
 ```
 
+Please also follow the installation instructions from the google API client dependency:
+https://github.com/pulkitjalan/google-apiclient
+
 ## Usage
 
 Here is a usage example:
